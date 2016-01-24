@@ -1,6 +1,6 @@
 {
   "name": "mocha-tap13",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/mocha-tap13.js",
   "scripts": {
     "clean": "rm -rf lib",

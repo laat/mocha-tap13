@@ -53,7 +53,6 @@ module.exports = function BetterTAP (runner) {
   runner.on('fail', (test, err) => {
     failures++
     console.log(`not ok ${n} ${title(test)}`)
-    console.log(test.prototype)
     let message = {
       name: err.name,
       message: err.message,
