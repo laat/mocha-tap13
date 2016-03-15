@@ -40,12 +40,12 @@ module.exports = function BetterTAP (runner) {
     console.log(`TAP version 13\n1..${runner.grepTotal(runner.suite)}`)
   })
 
-  runner.on('pending', test => {
+  runner.on('pending', (test) => {
     skip++
     console.log(`ok ${n} ${title(test)} # SKIP -`)
   })
 
-  runner.on('pass', test => {
+  runner.on('pass', (test) => {
     passes++
     console.log(`ok ${n} ${title(test)}`)
   })
@@ -68,7 +68,7 @@ module.exports = function BetterTAP (runner) {
         .split('\n')
         .splice(4)
         .map(cleanUpDiff)
-        .filter(line => line != null)
+        .filter((line) => line != null)
     }
     if (err.stack) {
       message.stack = err.stack.split('\n')
