@@ -2,7 +2,7 @@
   "name": "mocha-tap13",
   "version": "1.0.1",
   "description": "TAP version 13 output for mocha",
-  "repository": "laat/run-tests",
+  "repository": "laat/mocha-tap13",
   "license": "MIT",
   "engines": {
     "node": ">=4"
