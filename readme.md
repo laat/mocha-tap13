@@ -1,4 +1,4 @@
-# mocha-tap13 [![Build Status](https://travis-ci.org/Laat/mocha-tap13.svg?branch=master)](https://travis-ci.org/Laat/mocha-tap13)
+# mocha-tap13 [![Build Status](https://travis-ci.org/laat/mocha-tap13.svg?branch=master)](https://travis-ci.org/laat/mocha-tap13)
 
 > TAP version 13 output for mocha
 
