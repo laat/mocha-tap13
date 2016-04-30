@@ -1,6 +1,6 @@
 {
   "name": "mocha-tap13",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TAP version 13 output for mocha",
   "repository": "laat/mocha-tap13",
   "license": "MIT",
